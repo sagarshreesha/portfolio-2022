@@ -1,8 +1,84 @@
+.works {
+  padding-top: 10rem;
+  @include respond(phone) {
+    padding-top: 5rem;
+  }
+}
+.workList {
+  font-size: 18px;
+  padding-left: 5rem;
+  line-height: 30px;
+  text-align: justify;
+  @include respond(phone) {
+    font-size: 16px;
+    padding-left: 2rem;
+    text-align: justify;
+    padding-right: 1rem;
+  }
+}
+
+.workList li {
+  padding-top: 20px;
+}
+
+.desig {
+  display: flex;
+  justify-content: space-between;
+  @include respond(phone) {
+    display: block;
+  }
+}
+
+.period {
+  font-size: 16px;
+  font-weight: 200;
+  @include respond(phone) {
+    font-weight: 400;
+    padding-left: 26px;
+    float: none;
+    padding-top: 6px;
+  }
+}
+
+.company {
+  padding-left: 3rem;
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: -6px;
+
+  @include respond(phone) {
+    font-size: 18px;
+    padding-left: 26px;
+    padding-top: 13px;
+  }
+}
+
+.location {
+  font-style: italic;
+  font-weight: 200;
+  font-size: 20px;
+  @include respond(phone) {
+    font-size: 18px;
+  }
+}
+
+.color-title {
+  // background-image: linear-gradient(
+  //   10deg,
+  //   #65c7f7 30%,
+  //   #0052d4 100%
+  // ) !important;
+  // -webkit-background-clip: text;
+  // -webkit-text-fill-color: transparent;
+  // color: transparent;
+  color: #65c7f7;
+}
+
 #projects {
-  background-color: $white-color;
+  background-color: #121212;
   color: $dark-blue-text;
   margin-top: -10rem;
-  padding-top: 15rem;
+  padding-top: 10rem;
 
   @include respond(tab-land) {
     margin-top: 0;
@@ -26,7 +102,7 @@
 
     &__text {
       text-align: left;
-
+      color: #ebebeb;
       @include respond(phone) {
         margin-bottom: 2.5rem !important;
       }
@@ -36,16 +112,17 @@
 
       &-title {
         font-weight: bold;
-        margin-bottom: 1.8rem;
-        font-size: $mid-font-size;
+        margin-bottom: 1rem;
+        font-size: 2.7rem;
+        letter-spacing: 0.5px;
 
         @include respond(phone) {
-          font-size: 2rem;
+          font-size: 22px;
         }
       }
 
       & p > a {
-        color: $secondary-color;
+        color: #ebebeb;
       }
     }
 

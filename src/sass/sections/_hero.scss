@@ -4,9 +4,14 @@
   display: flex;
   align-items: center;
   border-bottom: 0px;
-  background: $white-color;
-  font-weight: 400;
-  color: $dark-blue-text;
+  background-color: transparent !important;
+  background-image: radial-gradient(
+    circle 500px at 0% 10%,
+    #002f3d 0%,
+    #121212 97.5%
+  ) !important;
+  font-weight: 800;
+  color: #e0e0e0;
   padding: 0rem 5.6rem;
   margin-bottom: 0;
   top: 0;
@@ -30,10 +35,10 @@
 
   .hero-title {
     font-size: 5.6rem;
-    font-weight: 700;
+    font-weight: 800;
     margin-bottom: 3.2rem;
     text-align: left;
-
+    line-height: 8rem;
     @include respond(tab-land) {
       font-size: 4rem;
     }
@@ -47,6 +52,41 @@
     }
     @include respond(phone-xs) {
       font-size: 2.8rem;
+    }
+  }
+
+  .colorname {
+    letter-spacing: 0.5px;
+
+    background-image: linear-gradient(
+      10deg,
+      #9cecfb 0%,
+      #65c7f7 50%,
+      #0052d4 100%
+    ) !important;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+
+  .hero-sub-title {
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 3.2rem;
+    text-align: left;
+    @include respond(tab-land) {
+      font-size: 3rem;
+    }
+    @include respond(tab-port) {
+      font-size: 2.5rem;
+      text-align: center;
+    }
+    @include respond(phone) {
+      margin-top: 2rem;
+      font-size: 2.2rem;
+    }
+    @include respond(phone-xs) {
+      font-size: 1.5rem;
     }
   }
 
