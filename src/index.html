@@ -1,14 +1,3 @@
-<!--
-  Hello!
-  -
-  Simplefolio is a clean and responsive portfolio template for Developers!
-  Created by Jacobo Martinez.
-  -
-  Github Repo: https://github.com/cobidev/simplefolio/
-  Readme: https://github.com/cobidev/simplefolio/README.md
-  -
-  For business & inquires, contact me -> jacobojavier98@gmail.com
--->
 <!DOCTYPE html>
 <html lang="en" class="sr">
   <head>
@@ -18,11 +7,11 @@
     <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
 
     <!-- Todo: put here your site title -->
-    <title>Shreesha Sagar | Full Stack Engineer</title>
+    <title>Shreesha Sagar | Full Stack Developer</title>
     <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="sagarshreesha1999, Shreesha, skill" />
+    <meta name="keywords" content="sagarshreesha1999, Shreesha, Full Stack, Shreesha Sagar, Shreesha Website, ShreeshaSagar, sagarshreesha1999, Srisha, Srisha Sagar" />
     <!-- Todo: improve your SEO by adding a small description of you -->
-    <meta name="description" content="[Your name here] | Developer" />
+    <meta name="description" content="Hi!" />
 
     <link
       rel="stylesheet"
@@ -80,16 +69,16 @@
                 Hi! I am <b>Shreesha</b>, a 22 year old <b>Full Stack Engineer</b> from <b>Bangalore</b>. Actively working on projects either at work or on my free time. My mission is to build <b>human</b> focussed apps using the best of what modern tech has to offer.<br/><br/>          
                 My view is that tech should work for us. As a developer my main focus is doing just that. I always put that extra effort into making what I'm developing more <b>human</b>. In the process, I always keep an eye out for the latest tech that can help me achieve my goal without making sacrifices. I always try extending my help when it comes to the best solution for a problem, be it my manager in a design meeting, or my mom with her phone.
               </p>
-              <span class="d-flex mt-3">
+              <!-- <span class="d-flex mt-3">
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--resume"
-                  href="assets/resume.pdf"
+                  href="#"
                 >
                   View Resume
                 </a>
-              </span>
+              </span> -->
             </div>
           </div>
         </div>
@@ -133,48 +122,45 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 0</h3>
-                <div>
-                  <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                <h3 class="project-wrapper__text-title">Tggr - Tag Based File Sharing</h3>
+                <div class="description">
+                  <p class="mb-4 description">
+         
+                    Tired of digging for that file or link you had stored somewhere ? Want to quickly access your files cross platform ? Upload files under a common tag and collaborate like never before.
+                    <br/>
+                    Suppose a professor wants her students to submit their assignments digitally. All she has to do is create a tag like say '6th-sem-assignments' and share it with her students. The students can upload the files under that tag.
+                    <br/>
+                    Built using React and Firebase Cloud Functions. Future plan is to build it using a microservice architecture and deploy it using Kubernetes.
+                    <br/>
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="#!"
+                  class="cta-btn cta-btn--hero pbtn"
+                  href="https://tggr.netlify.app"
                 >
                   See Live
                 </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
-                  Source Code
-                </a>
+               
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a rel="noreferrer" href="https://tggr.netlify.app" target="_blank">
                   <div
                     data-tilt
                     data-tilt-max="4"
                     data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
+                    data-tilt-max-glare="0.2"
+                    class="thumbnail rounded-xl js-tilt"
+                    style="border: none;"
                   >
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/tggr.png"
+                      style="border: 3px solid #242424;border-radius: 5px;"
                     />
                   </div>
                 </a>
@@ -187,21 +173,20 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 1</h3>
-                <div>
-                  <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                <h3 class="project-wrapper__text-title">PU Results | Govt. PU College</h3>
+                <div class="description">
+                  <p class="mb-4 description">
+                    Due to COVID-19 lockdown colleges were asked not to display the results at the college, but to send it to them directly. The best solution to this was to build a Result Portal where they could check their results with their Reg. No.
+                    <br/>
+                    So I built this portal for over 10,000 students to check their results. Each student had around 15 parameters. The DB was generated in MongoDB and I created a REST API with GraphQL queries. The frontend was built using Vue as it's easier and the development process is quicker.
+                    <br/>
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="https://powerful-journey-50028.herokuapp.com"
                 >
                   See Live
                 </a>
@@ -209,7 +194,7 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="#!"
+                  href="https://github.com/sagarshreesha/puc_results"
                 >
                   Source Code
                 </a>
@@ -217,18 +202,20 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a rel="noreferrer" href="https://powerful-journey-50028.herokuapp.com" target="_blank">
                   <div
                     data-tilt
                     data-tilt-max="4"
                     data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
+                    data-tilt-max-glare="0.2"
+                    class="thumbnail rounded-xl js-tilt"
+                    style="border: none;"
                   >
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/p2.png"
+          
                     />
                   </div>
                 </a>
@@ -241,48 +228,41 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 2</h3>
-                <div>
-                  <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                <h3 class="project-wrapper__text-title">Tutr - Daily Academic Updates</h3>
+                <div class="description">
+                  <p class="mb-4 description">
+                    This is an online platform where professors can post the day to day happenings from the class so that students can stay updated with their academia. If a student has missed classes or revising for test or something, he can just run through the website to know what's going on in the class and learn.
+                    <br/>
+                    Built using MEAN Stack as a part of our Web Programming and DBMS Mini Project.
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="https://imgur.com/gallery/fUMn6pn"
                 >
                   See Live
                 </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
-                  Source Code
-                </a>
+                
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a rel="noreferrer" href="https://imgur.com/gallery/fUMn6pn" target="_blank">
                   <div
                     data-tilt
                     data-tilt-max="4"
                     data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
+                    data-tilt-max-glare="0.2"
+                    class="thumbnail rounded-xl js-tilt"
+                    style="border: none;"
                   >
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/p3.png"
+                
                     />
                   </div>
                 </a>
@@ -299,15 +279,22 @@
     <section id="contact">
       <div class="container">
         <h2 class="section-title">Contact</h2>
-        <div class="contact-wrapper load-hidden">
-          <p class="contact-wrapper__text">[Put your call to action here]</p>
+        <div class="contact-wrapper load-hidden flex mx-auto">
+          <div class="">
+          <p  class="contact-wrapper__text" style="justify-content: center;">
+            Email : <b>sagar.shreesha@gmail.com</b>
+            <br/>
+            Phone : <b>+91 8762948986</b>
+          </p>
           <a
+            style="text-align: center;"
             rel="noreferrer"
             target="_blank"
             class="cta-btn cta-btn--resume"
-            href="mailto:example@email.com"
-            >Call to Action</a
+            href="mailto:sagar.shreesha@gmail.com"
+            >Email Me</a
           >
+        </div>
         </div>
       </div>
     </section>
@@ -320,50 +307,16 @@
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
         <div class="social-links">
-          <a rel="noreferrer" href="#!" target="_blank">
+          <a rel="noreferrer" href="https://twitter.com/shreeshasagar" target="_blank">
             <i class="fa fa-twitter fa-inverse"></i>
           </a>
-          <a rel="noreferrer" href="#!" target="_blank">
+          <a rel="noreferrer" href="https://www.linkedin.com/in/shreesha-sagar/" target="_blank">
             <i class="fa fa-linkedin fa-inverse"></i>
           </a>
-          <a rel="noreferrer" href="#!" target="_blank">
+          <a rel="noreferrer" href="https://github.com/sagarshreesha" target="_blank">
             <i class="fa fa-github fa-inverse"></i>
           </a>
         </div>
-
-        <hr />
-
-        <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
-        <p class="footer__text">
-          © 2021 - Template developed by
-          <a rel="noreferrer" href="https://github.com/cobidev" target="_blank"
-            >Jacobo Martínez</a
-          >
-        </p>
-
-        <!-- TO DO: remove this entire paragraph once you finish your portfolio -->
-        <p class="mt-3 pt-3">
-          <a
-            rel="noreferrer"
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio/fork"
-            data-icon="octicon-repo-forked"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Fork ntkme/github-buttons on GitHub"
-            >Fork</a
-          >
-          <a
-            rel="noreferrer"
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio"
-            data-icon="octicon-star"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Star cobidev/simplefolio on GitHub"
-            >Star</a
-          >
-        </p>
       </div>
     </footer>
     <!-- /END Footer Section -->
