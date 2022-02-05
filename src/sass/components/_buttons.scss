@@ -27,7 +27,8 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: transparent;
-  border: 2px solid transparent;
+  border-style: solid;
+  border-width: 2px;
   border-image: linear-gradient(135deg, #65c7f7 0%, #0052d4 100%);
   border-image-slice: 1;
   @include supportIE11() {

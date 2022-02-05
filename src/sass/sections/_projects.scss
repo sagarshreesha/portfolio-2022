@@ -98,7 +98,13 @@
   .project-wrapper {
     margin-bottom: 15rem;
 
+    @include respond(tab-land) {
+      margin-bottom: 0rem;
+    }
+
     @include respond(phone) {
+      padding-right: 1rem;
+      padding-left: 1rem;
       margin-bottom: 0rem;
     }
 
